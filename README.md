@@ -1,6 +1,6 @@
 # npmtest-webpack-load-plugins
 
-#### test coverage for  [webpack-load-plugins (v0.1.2)](https://github.com/samvloeberghs/webpack-load-plugins#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-load-plugins.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-load-plugins) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-load-plugins.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-load-plugins)
+#### basic test coverage for  [webpack-load-plugins (v0.1.2)](https://github.com/samvloeberghs/webpack-load-plugins#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-webpack-load-plugins.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-webpack-load-plugins) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-webpack-load-plugins.svg)](https://travis-ci.org/npmtest/node-npmtest-webpack-load-plugins)
 
 #### Automatically load any webpack plugins in your package.json
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webpack-load-plugins/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webpack-load-plugins/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-webpack-load-plugins/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-webpack-load-plugins/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-webpack-load-plugins/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-webpack-load-plugins/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "NODE_PATH=test/global_modules mocha"
     },
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
